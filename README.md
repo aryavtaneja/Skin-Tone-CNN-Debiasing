@@ -1,10 +1,10 @@
 # Skin Tone Incorporation in Convolutional Neural Network Training forAmerican Sign Language to Debias Datasets
 
-This repository contains the code used for the paper Skin Tone Incorporation in Convolutional Neural Network Training forAmerican Sign Language to Debias Datasets. It contains the models, Jupyter notebooks and augmentation and debiasing methods used in the paper. The data is available separately [on Kaggle.](https://www.kaggle.com/datasets/aryavtaneja/skin-tone-cnn-debiasing)
+This repository contains the code used for the paper Skin Tone Incorporation in Convolutional Neural Network Training for American Sign Language to Debias Datasets. It contains the models, Jupyter notebooks and augmentation and debiasing methods used in the paper. The data is available separately [on Kaggle.](https://www.kaggle.com/datasets/aryavtaneja/skin-tone-cnn-debiasing)
 
 # File Structure
 
-The `models` folder contains the two Keras models tested in the paper. The `notebooks` folder contains Jupyter notebooks for training new models based on the data and for testing their accuracy against the validation datasets. The `utils` folder contains the image augmentation pipeline used to generate the initial dataset of 84,000 images in `augment.py`, and the method used to generate the debiased dataset in `debias_method.py`. Both of these require the Pillow library to be installed.
+The `models` folder contains the five Keras models tested in the paper. The `notebooks` folder contains Jupyter notebooks for training new models based on the data and for testing their accuracy against the validation datasets. The `utils` folder contains the image augmentation pipeline used to generate the initial dataset of 84,000 images in `augment.py`, and the two different debiasing methods used in `debias_method.py`. Both of these require the Pillow library to be installed.
 
 # Requirements
 
